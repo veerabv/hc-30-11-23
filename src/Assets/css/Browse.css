@@ -1,0 +1,25 @@
+.browse-handle__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+.browse-headStyle button {
+  color: #02363D !important;
+  text-align: right;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  padding: 0px;
+  margin-left: 3rem;
+}
+.nav-tabs button.Mui-selected {
+  font-weight: 500;
+}
+.nav-tabs .css-hg18dx-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #02363d;
+}
+.nav-tabs .css-1aquho2-MuiTabs-indicator {
+  background-color: #02363d;
+}

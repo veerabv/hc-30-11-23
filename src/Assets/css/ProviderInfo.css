@@ -1,0 +1,32 @@
+.info-buttons button {
+  background-color: white;
+  border: none;
+  color: #45a736;
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+}
+.info-buttons .active {
+  border-bottom: 1px solid lightgray;
+  cursor: default;
+}
+.Provider-info__table {
+  width: 100%;
+}
+
+.Provider-info__table td:nth-child(odd) {
+  color: #02363d;
+  font-size: 14px;
+  font-weight: 500;
+  width: 40%;
+}
+.Provider-info__table td:nth-child(even) {
+  color: #02363d;
+  font-size: 14px;
+  font-weight: 500;
+  width: 60%;
+}
+
+.Provider-info__table td {
+  padding-bottom: 8px;
+}

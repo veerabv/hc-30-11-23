@@ -1,0 +1,7 @@
+.MuiPagination-root {
+  margin: 16px auto;
+}
+
+.MuiPagination-ul {
+  justify-content: center;
+}

@@ -1,0 +1,7 @@
+.location-css-handle{
+  margin: 0px;
+}
+/* to remove the buttons at the buttom of the map */
+.gm-style-cc {
+  display: none !important;
+}

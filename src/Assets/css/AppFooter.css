@@ -1,0 +1,90 @@
+.menulist-handle {
+  padding: 0;
+}
+.socialMedia-handler {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.socialMedia-handler button {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  width: 43px;
+  height: 43px;
+  border-radius: 4px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerComp h4 {
+  margin-top: 9px;
+  color: #02363D;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  margin-bottom: 23px;
+}
+.practice{
+  color: #212220;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+.menulist-handle li {
+  color: #294761;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 22px;
+  padding: 5px;
+}
+.menulist-handle li:hover {
+  text-decoration: underline;
+  cursor: pointer !important;
+}
+.footerComp {
+  padding: 3rem 0rem 2rem;
+}
+.footerComp .MuiGrid-root {
+  padding-top: 0px;
+  padding-left: 5rem !important;
+}
+.socialMedia-handler button img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+.footerComp .footercomp-1 {
+  padding-left: 16px !important;
+}
+.footer-main.other-page {
+  padding-top: 1rem;
+}
+@media(max-width:1199px){
+  .footerComp .MuiGrid-root {
+    padding-left: 16px !important;
+  }
+  .footerComp .footercomp-1 {
+    padding: 0rem 10rem !important;
+    text-align: center;
+  }
+}
+@media(max-width:899px){
+  .footerComp {
+    justify-content: center;
+    text-align: center;
+  }
+  .socialMedia-handler{
+    justify-content: center;
+  }
+  .footer-main.other-page {
+    padding-top: 1rem !important;
+  }
+}
+@media(max-width:600px){
+  .footerComp .footercomp-1 {
+    padding: 0rem 2rem !important;
+  }
+}

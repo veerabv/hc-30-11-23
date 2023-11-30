@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif !important;
+}
+.MuiIconButton-root:hover , .MuiButton-root:hover {
+  background-color: transparent !important;
+}
+.MuiTouchRipple-root{
+  display: none;
+}
+body {
+  margin: 0px;
+}
+@media(min-width:1200px){
+  body .container-common {
+    max-width: 1300px;
+  }
+}
+/* header style start */
+.header-menu button {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+  letter-spacing: 0.3px;
+  text-transform: capitalize;
+  margin-right: 2rem;
+  padding-right: 0px;
+}
+.header-menu button:last-child {
+  margin-right: 0rem;
+}
+@media(max-width:599px){
+  .header-menu {
+    text-align: right;
+    margin-top: 1rem;
+  }
+}
+/* header style end */
+
+/* banner style start */
+.your-path {
+  color: #FFF;
+  font-size: 54px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+p.path-right span{
+  font-family: 'Montserrat', sans-serif !important;
+}
+.Commited {
+  color: #2A3D53;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+.banner-seaction div {
+  width: 50%;
+}
+img.banner-img{
+  height: 100%;
+}
+@media (min-width:1200px) and (max-width:1316px){
+  .your-path {
+    font-size: 46px;
+  }
+  .Commited{
+    font-size: 15px;
+  }
+}
+@media (min-width:900px) and (max-width:1100px){
+  img.banner-img {
+    width: 300px;
+    object-fit: contain;
+  }
+}
+@media (min-width:900px) and (max-width:1199px){
+  .your-path {
+    font-size: 42px;
+  }
+  .Commited{
+    font-size: 14px;
+  }
+}
+@media (max-width:899px){
+  .your-path, .Commited {
+    text-align: center !important;
+    margin-top: 0px;
+  }
+  .banner-seaction div {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width:700px){
+  img.banner-img {
+    width: 100%;
+  }
+  .your-path {
+    font-size: 40px;
+  }
+}
+/* banner style end */
+
+/* procedure style start */
+.browse-handle__nav h3 {
+  color: #212220;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 34px;
+}
+/* procedure style end */

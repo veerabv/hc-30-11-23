@@ -1,0 +1,142 @@
+.image-container {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin-top: 14px;
+}
+.background-image {
+  display: block;
+}
+.overlay-image {
+  position: relative;
+}
+.overlay-letter {
+  position: absolute;
+  top: 0;
+  font-size: 45px;
+  color: #45a736;
+  width: 100%;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p.browse-procedure {
+  color: #212220;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 53.2px;
+  margin: 0;
+}
+p.browse-subtext {
+  color: #858585;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+button.view-more {
+  color: #45A736;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  padding: 0px;
+  text-transform: capitalize;
+}
+.brower-right {
+  border-radius: 12px;
+  border: 1px solid #DADADA;
+  background: #FFF;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 16px;
+  padding: 0rem 1rem;
+}
+.brower-right:hover {
+  box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.10);
+}
+p.service-name {
+  color: #02363D;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36.4px;
+  margin-bottom: 0px;
+  height: 100%;
+}
+p.service-avgPrice {
+  color: #212220;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 25.6px;
+  margin: 1.5rem 0rem;
+}
+p.service-CashPrice {
+  color: #212220;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+p.prov-name {
+  color: #02363D;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+}
+p.prov-location {
+  color: #212220;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+p.prov-name svg {
+  position: relative;
+  top: 6px;
+  left: 3px;
+}
+.list-name{
+  padding-top: 0px !important;
+}
+.home-page{
+  padding-bottom: 20em;
+}
+@media (max-width:1199px){
+  p.browse-procedure, p.browse-subtext, button.view-more {
+    text-align: center;
+    width: 100%;
+    line-height: normal;
+  }
+  .list-name{
+    padding-top: 16px !important;
+    padding-left: 0px !important;    
+  }
+  .brower-right {
+    margin-right: 16px;
+  }
+}
+@media (max-width:899px){
+  .brower-right {
+    height: auto;
+  }
+  .list-name{
+    width: 100%;
+  }
+  p.prov-name{
+    margin: 35px 0px;
+  }
+}
+@media (max-width:600px){
+  p.browse-procedure{
+    font-size: 35px;
+  }
+}

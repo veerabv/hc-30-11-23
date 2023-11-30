@@ -1,0 +1,22 @@
+.alphabet-search button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+.alphabet-search button.active {
+  font-weight: bold;
+  /* border-bottom: 2px solid black; */
+  background-color: #e3f2e1;
+  color: #02363d;
+  padding: 8px;
+}
+.search-result__content {
+  /* display: flex;
+  flex-direction: column; */
+  background-color: #f5f5f5 !important;
+  margin-top: 20px;
+}
+
+.search-result__content .card-listing__bottomHandler {
+  border-radius: 8px 8px 0 0;
+}
